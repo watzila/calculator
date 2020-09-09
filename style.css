@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  width: 40%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 30px;
+  background: black;
+}
+
+.item {
+  background: grey;
+}
+
+.answer {
+  text-align: right;
+  color: #ffffff;
+}
+p:first-child {
+  /*margin: 3% 0 10%;*/
+  padding: 10px;
+  font-size: 25px;
+  background: rgb(144, 89, 89);
+}
+p:last-child {
+  font-size: 60px;
+  padding: 10px;
+  overflow: auto;
+  white-space: nowrap;
+  background: rgb(197, 197, 197);
+}
+.calculatorBTNs {
+  display: flex;
+  flex-wrap: wrap;
+  /*background: red;*/
+  height: 100vh;
+}
+
+.btn {
+  width: 20%;
+  height: 10vh;
+  /*padding: 5% 0;*/
+  margin: 2.5%;
+  border-radius: 10px;
+  outline-style: none;
+  font-size: 30px;
+}
+
+.btn:last-child {
+  flex: 3;
+}
