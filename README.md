@@ -1,3 +1,5 @@
+主要是設計一個可以連續計算的功能，不使用eval()函式
+
 預覽： https://watzila.github.io/calculator/
 
 計算機計算功能：
